@@ -1,0 +1,16 @@
+body {
+  background-image: url("../img/background-4.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.top-nav {
+  list-style: none;
+}
+
+.top-nav li {
+  display: inline-block;
+  color: #fff;
+  font-family: 'HelveticaNeue-Thin';
+}

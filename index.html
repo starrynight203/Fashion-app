@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Toss</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css"/>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -11,17 +12,43 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/c0974153c6.js"></script>
 </head>
 <body>
-  <h1>TOSSSSSS</h1>
-  <div class="row" style="background: blue;">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">Toss Outfits</div>
-    <div class="col-md-4"></div>
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 nav-image">
+          <img src="img/toss-logo-1.png" alt="" >
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 icons">
+          <ul class="top-nav">
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="row nav-bar">
+        <div class="col-md-3">
+          <h3>Products<i class="fa fa-sort-desc" aria-hidden="true"></i></h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Accessories</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Service &amp; Support</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Delta Innovation</h3>
+        </div>
+      </div> -->
   </div>
   <form class="signUpForm" action="signup.php" method="post">
       <input type="email" id="email" name="email" placeholder="email">
       <input type="submit" name="submit" value="join">
-    </form>
+  </form>
 </body>
 </html>
