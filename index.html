@@ -16,39 +16,40 @@
 </head>
 <body>
   <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 nav-image">
-          <img src="img/toss-logo-1.png" alt="" >
-        </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4 icons">
-          <ul class="top-nav">
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-          </ul>
-        </div>
+    <div class="row top-nav-row">
+      <div class="col-md-9 nav-image">
+        <img src="img/toss-logo-1.png" alt="" >
       </div>
-      <!-- <div class="row nav-bar">
-        <div class="col-md-3">
-          <h3>Products<i class="fa fa-sort-desc" aria-hidden="true"></i></h3>
-        </div>
-        <div class="col-md-3">
-          <h3>Accessories</h3>
-        </div>
-        <div class="col-md-3">
-          <h3>Service &amp; Support</h3>
-        </div>
-        <div class="col-md-3">
-          <h3>Delta Innovation</h3>
-        </div>
-      </div> -->
+      <div class="col-md-2 top-nav-col-2">
+        <ul class="top-nav">
+          <li class="about-icon"><a href="#">ABOUT</a></li>
+          <li class="contact-icon"><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="col-md-1 icons">
+        <ul class="top-nav">
+          <li class="fb-icon"><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="ig-icon"><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <form class="signUpForm" action="signup.php" method="post">
-      <input type="email" id="email" name="email" placeholder="email">
-      <input type="submit" name="submit" value="join">
-  </form>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="form-greeting">Dress to be the best version of yourself.</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-offset-8 email-form">
+      <p class="form-command">Sign up for email updates</p>
+      <form class="signUpForm" action="signup.php" method="post">
+          <input type="email" id="email" name="email" placeholder="email">
+          <input type="submit" name="submit" value="join">
+      </form>
+    </div>
+  </div>
+
 </body>
 </html>

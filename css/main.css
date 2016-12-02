@@ -1,8 +1,26 @@
 body {
+  font-family: 'HelveticaNeue-Thin';
   background-image: url("../img/background-4.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+
+.top-nav-row {
+  border-bottom: 1px solid #fff;
+}
+
+.top-nav-col-2 {
+  border-right: 1px solid #fff;
+  height: 48px;
+}
+
+.icons {
+  height: 48px;
+}
+
+.nav-image img {
+  padding: 15px;
 }
 
 .top-nav {
@@ -11,6 +29,42 @@ body {
 
 .top-nav li {
   display: inline-block;
+  color: #fff;
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 10px;
+  padding-top: 15px;
+}
+
+.about-icon a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 15px;
+}
+
+.contact-icon a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 15px;
+}
+
+.icons li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fb-icon a {
+  padding-right: 15px;
+}
+
+.form-greeting {
+  float: right;
+  font-size: 42px;
+  color: #fff;
+  font-family: 'HelveticaNeue-Thin';
+}
+
+.form-command {
+  font-size: 14px;
   color: #fff;
   font-family: 'HelveticaNeue-Thin';
 }
