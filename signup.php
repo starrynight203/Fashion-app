@@ -23,6 +23,6 @@ if(mail($address, $received_subject, $message, $header)) {
 	// echo "<h2>Email Sent Successfully.</h2>";
 	// echo "<p>Thank you <strong>$email</strong>, your message has been sent to us.</p>";
 } else {
-	// header('location: fail.php');
-	echo 'ERROR!';
+	header('location: fail.html');
+	// echo 'ERROR!';
 }
