@@ -68,3 +68,9 @@ body {
   color: #fff;
   font-family: 'HelveticaNeue-Thin';
 }
+
+.email-success-header,
+.email-success-content {
+  color: #fff;
+  font-family: 'HelveticaNeue-Thin';
+}

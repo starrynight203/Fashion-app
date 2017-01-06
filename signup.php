@@ -18,9 +18,11 @@ $message = wordwrap( $received_body );
 $header = "From: $email" . PHP_EOL;
 $header .= "Reply-To: $email" . PHP_EOL;
 if(mail($address, $received_subject, $message, $header)) {
+	header('location: success.html');
 	// Email has sent successfully, echo a success page.
-	echo "<h2>Email Sent Successfully.</h2>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been sent to us.</p>";
+	// echo "<h2>Email Sent Successfully.</h2>";
+	// echo "<p>Thank you <strong>$email</strong>, your message has been sent to us.</p>";
 } else {
+	// header('location: fail.php');
 	echo 'ERROR!';
 }
