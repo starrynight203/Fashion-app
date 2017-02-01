@@ -1,6 +1,6 @@
 <?php
 
- require_once('class.phpmailer.php');
+ require_once('phpmailer.php');
 
  if(!$_POST) exit;
  function isEmail($email) {
