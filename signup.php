@@ -10,7 +10,7 @@ if(trim($email) == '') {
 	echo '<div class="error_message">Please enter your e-mail adress, so we can get back to you</div>';
 	exit();
 }
-$address = "emjwivell@gmail.com";
+$address = "info@toss.fashion";
 $received_subject = 'New Closet to Fill!';
 $received_body .= "Email:  $email " . PHP_EOL . PHP_EOL;
 $received_reply = "Reply to $email ";
