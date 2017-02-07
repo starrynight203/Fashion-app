@@ -61,6 +61,8 @@ body {
   font-size: 42px;
   color: #fff;
   font-family: 'HelveticaNeue-Thin';
+  margin-top: 75px;
+  margin-bottom: 60px;
 }
 
 .form-command {
@@ -74,4 +76,8 @@ body {
 .email-success-content {
   color: #fff;
   font-family: 'HelveticaNeue-Thin';
+}
+
+.signup {
+  background: blue !important;
 }
