@@ -83,8 +83,25 @@ body {
   font-family: 'HelveticaNeue-Thin';
 }
 
-.signup {
-  background: blue !important;
+.email-form {
+  padding-bottom: 100px;
+}
+
+input[type=email] {
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  border-radius: 5px;
+  background: none;
+  color: #fff;
 }
 
 .title {
@@ -111,8 +128,19 @@ body {
 }
 
 .img-titles {
-  font-family: 'HelveticaNeue-Thin';
+  font-family: 'HelveticaNeue';
   font-size: 22px;
+}
+
+.img-content-row {
+  margin-bottom: 100px;
+}
+
+.img-content{
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .uppercase {
@@ -128,7 +156,10 @@ body {
 }
 
 .why-toss {
-  background-color: #a4b0ac;
+  /*background-color: #eaeceb;*/
+  background-color: rgba(164, 176, 172, 0.25);
+  padding-bottom: 100px;
+  /*opacity: .25;*/
 }
 
 .why-toss-content {
@@ -136,4 +167,17 @@ body {
   font-size: 35px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+footer {
+  background-color: #4d5d5d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: #f8fff4;
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 10px;
+  text-align: center;
 }
