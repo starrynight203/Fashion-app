@@ -126,3 +126,14 @@ body {
 .center {
   text-align: center;
 }
+
+.why-toss {
+  background-color: #a4b0ac;
+}
+
+.why-toss-content {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
