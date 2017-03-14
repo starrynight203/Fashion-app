@@ -1,14 +1,18 @@
 body {
   font-family: 'HelveticaNeue-Thin';
-  background-image: url("../img/background-4.jpg");
+}
+
+.slider-img {
+  background-image: url("../img/background-4-cropped.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  max-height: 550px;
 }
 
-.top-nav-row {
+/*.top-nav-row {
   border-bottom: 1px solid #fff;
-}
+}*/
 
 .top-nav-col-2 {
   border-right: 1px solid #fff;
@@ -63,6 +67,7 @@ body {
   font-family: 'HelveticaNeue-Thin';
   margin-top: 75px;
   margin-bottom: 60px;
+  text-align: right;
 }
 
 .form-command {
@@ -80,4 +85,44 @@ body {
 
 .signup {
   background: blue !important;
+}
+
+.title {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.hr-color {
+  /*color: #e3eba7;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #e3eba7;
+}
+
+.about {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.img-titles {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 22px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italicize {
+  font-style: italic;
+  font-weight: 200;
+}
+.center {
+  text-align: center;
 }
