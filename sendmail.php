@@ -18,8 +18,8 @@
     $mail->CharSet =  "utf-8";
     $mail->IsSMTP();
     $mail->SMTPAuth = true;
-    $mail->Username = "emily@toss.fashion";
-    $mail->Password = "pr0d3v!!";
+    $mail->Username = "";
+    $mail->Password = "";
     $mail->SMTPSecure = "ssl";
     $mail->Host = "smtp.gmail.com";
     $mail->Port = "465";
