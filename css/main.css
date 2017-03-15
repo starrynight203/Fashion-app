@@ -7,7 +7,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  max-height: 550px;
+  max-height: 575px;
 }
 
 /*.top-nav-row {
@@ -67,7 +67,6 @@ body {
   font-family: 'HelveticaNeue-Thin';
   margin-top: 75px;
   margin-bottom: 60px;
-  text-align: right;
 }
 
 .form-command {
@@ -84,7 +83,8 @@ body {
 }
 
 .email-form {
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+  float: right;
 }
 
 input[type=email] {
@@ -102,6 +102,15 @@ input[type=submit] {
   border-radius: 5px;
   background: none;
   color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.form-command {
+  color: #f8fff4;
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .title {
@@ -109,11 +118,20 @@ input[type=submit] {
   font-size: 30px;
   text-transform: uppercase;
   text-align: center;
+  margi?n-top: 40px;
+  color: #606363;
+}
+
+.title-2 {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
   margin-top: 60px;
+  color: #606363;
 }
 
 .hr-color {
-  /*color: #e3eba7;*/
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
@@ -169,6 +187,10 @@ input[type=submit] {
   padding-right: 30px;
 }
 
+.color {
+  color: #606363;
+}
+
 footer {
   background-color: #4d5d5d;
   padding-top: 20px;
@@ -180,4 +202,19 @@ footer p {
   font-family: 'HelveticaNeue-Thin';
   font-size: 10px;
   text-align: center;
+  margin: 10px;
+}
+
+.footer-logo-img{
+  margin: 10px;
+}
+
+.footer-links {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  /*margin-right: 15px;
+  margin-left: 15px;*/
+  margin: 10px;
+  text-transform: uppercase;
 }
