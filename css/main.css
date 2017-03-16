@@ -218,3 +218,8 @@ footer p {
   margin: 10px;
   text-transform: uppercase;
 }
+
+.footer-links a {
+  text-decoration: none;
+  color: #f8fff4;
+}
