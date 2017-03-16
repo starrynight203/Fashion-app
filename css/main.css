@@ -7,7 +7,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  max-height: 575px;
+  max-height: 650px;
 }
 
 /*.top-nav-row {
@@ -83,7 +83,7 @@ body {
 }
 
 .email-form {
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   float: right;
 }
 
