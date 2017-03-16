@@ -1,5 +1,5 @@
 body {
-  font-family: 'HelveticaNeue-Thin';
+  font-family: 'HelveticaNeue-Thin' !important;
 }
 
 .slider-img {
@@ -222,4 +222,31 @@ footer p {
 .footer-links a {
   text-decoration: none;
   color: #f8fff4;
+}
+
+/* privacy page */
+.privacy-policy p {
+  font-size: 18px;
+}
+
+.privacy-policy-heading {
+  font-size: 30px;
+}
+
+.privacy-subheading {
+  font-size: 18px;
+}
+
+.bold-titles {
+  font-family: 'HelveticaNeue';
+}
+
+/* terms of service page */
+.terms-of-service {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.terms-of-service p, li {
+  font-size: 18px;
 }
